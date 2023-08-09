@@ -1177,7 +1177,7 @@ input[type="checkbox"] {
 }
 
 /* Para computadoras con pantalla grande */
-@media (max-width: 1440px){
+/* @media (max-width: 1440px){
     .contenedor-grid{
         height: 750px;
     }
@@ -1226,4 +1226,4 @@ input[type="checkbox"] {
 
 
     
-}
+} */
