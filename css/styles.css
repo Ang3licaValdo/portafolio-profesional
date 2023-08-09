@@ -1,4 +1,4 @@
-/* PARA SABER SI FUNCIONA */
+
 *{
     margin: 0px;
     padding: 0px;
@@ -1073,25 +1073,43 @@ input[type="checkbox"] {
     /* Página proyectos */
     
     .proyecto{
-        height: 1000px;
+        height: 1100px;
          flex-direction: column;
     }
 
-    .proyecto-descripcion1 p{
-        font-size: 10px;
+    #pro1{
+        height:700px;
     }
 
+    /* .proyecto-descripcion1{
+        font-size: 10px;
+        margin-left: 100px;
+    } */
+
+    .proyecto-texto{
+        width: 70%;
+    }
     #pro1 img{
         width: 270px;
         height: 270px;
     }
     #pro2 img{
-        width: 270px;
+        width: 300px;
         height: 270px;
     }
     #pro3 img{
-        width: 270px;
+        width: 300px;
         height: 270px;
+    }
+
+    /* #proyecto-descripcion1 {
+        padding:50px;
+        font-size: 10px;
+    } */
+
+    .proyecto-texto{
+        align-items: center;
+        justify-content: center;
     }
 
     /* Formulario responsive */
