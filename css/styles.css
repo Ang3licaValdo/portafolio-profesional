@@ -1179,7 +1179,7 @@ input[type="checkbox"] {
 /* Para computadoras con pantalla grande */
 @media (max-width: 1440px){
     .contenedor-grid{
-        height: 900px;
+        height: 750px;
     }
 
     .navigation-bar{
