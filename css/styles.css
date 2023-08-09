@@ -1224,6 +1224,11 @@ input[type="checkbox"] {
         width: 120px;
     }
 
+    /* Formulario */
+    .form{
+        height: 890px;
+    }
+
 
     
 }
