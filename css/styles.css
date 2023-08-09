@@ -287,7 +287,7 @@ video{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 123px;
     font-family: 'DM Sans', sans-serif;
     font-size: 16px;
     width: 100%;
@@ -1170,9 +1170,15 @@ input[type="checkbox"] {
         margin: 30px;
     }
 
-    /* Formulario respnsive */
+    /* Formulario responsive */
     .footer{
         height: 123px;
     }
 }
 
+/* Para computadoras con pantalla grande */
+@media (max-width: 1440px){
+    .contenedor-grid{
+        height: 100%;
+    }
+}
