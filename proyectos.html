@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="author" content="Angelica Valdovinos">
+            <meta name="description" content="Portafolio de Angelica Valdovinos, estudiante de ingeniería en sistemas Computacionales">
+            <meta name="keywords" content="Java, HTML, Machine Learning, C++/C, Docker, Python">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- Titulo -->
+            <title> Angelica Valdovinos | Sistemas Computacionales </title>
+            <!-- Para el ícono de mi página -->
+            <link rel="icon" href="./img/logo1.png" type="image/png">
+    
+            <!-- Google Font -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+    
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
+    
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap" rel="stylesheet">
+    
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+    
+            <!-- CSS -->
+            <link rel="stylesheet" href="css/styles.css">
+    
+        </head>
+    </head>
+<body>
+
+    <!-- Cabecera de mi Portafolio -->
+    <header>
+
+            
+
+        <!-- Barra de navegacion -->
+        <div class="navigation-bar">
+
+            <div class="logo-div">
+                <img src="./img/logo4.png" alt="logo del Portafolio" class="logo">
+            </div>
+
+            <div class="a-elementos">
+                <nav>
+
+                    <a href="index.html" class="nav-a">Inicio</a>
+                    <a href="sobremi.html" class="nav-a">Sobre mí</a>
+                    <!-- <a href="" class="nav-a">Cursos y certificaciones</a> -->
+                    <a href="proyectos.html" class="nav-a">Proyectos</a>
+                    <a href="formulario.html" class="nav-a">Contacto</a>
+
+                    
+                </nav>
+            </div>
+
+        </div>
+
+        <div class="menu-responsivo">
+
+            <div class="logo-div">
+                <img src="./img/logo4.png" alt="logo del Portafolio" class="logo">
+            </div>
+             
+            <div class="menu-lista">
+                
+                <label for="checkbox" class="checkbox-icono">
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-layout-navbar-expand" width="47" height="47" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M4 18v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                        <path d="M4 9h16" />
+                        <path d="M10 14l2 2l2 -2" />
+                    </svg>
+                
+                </label>
+
+                
+            </div>
+
+            
+        </div>
+
+        <input type="checkbox" id="checkbox"/>
+        <div class="etiquetas-responsivas">
+            <ul>
+                <li>
+                    <div class="etiqueta-responsiva">
+                        <a href="index.html" class="nav-a">Inicio</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="etiqueta-responsiva">
+                        <a href="sobremi.html" class="nav-a">Sobre mí</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="etiqueta-responsiva">
+                        <a href="proyectos.html" class="nav-a">Proyectos</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="etiqueta-responsiva">
+                        <a href="formulario.html" class="nav-a">Contacto</a>
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="proyectos">
+
+            <section class="proyecto" id="pro1">
+                    
+                <img src="img/stitches-logo.png" alt="">
+                
+                
+
+                <section id="proyecto-descripcion1" class="proyecto-texto">
+
+                    <h2>
+                        Stitches (Alexa Skill)
+                    </h2>
+                    <p>
+                        Una skill de Alexa dedicada a los costureros o costureras,
+                        ya que su función es que estos puedan guardar las medidas de sus clientes, así
+                        como consultarlas y modificarlas cuando requieran solo usando comandos de voz.
+                    </p>
+
+                    
+                    <a href="https://github.com/Ang3licaValdo/Stitches-Alexa-Skill.git" class="boton" target="_blank">Ver más</a>
+
+                </section>
+
+
+                
+
+
+
+            </section>
+            <section class="proyecto" id="pro2">
+                                  
+
+                <section id="proyecto-descripcion2" class="proyecto-texto">
+
+                    <h2>
+                        KGProject
+                    </h2>
+                    <p>
+                        Knowledge Graph creado utilizando información extraída de los XML de 30 distintos artículos científicos que yo y mi equipo recolectamos, este KG se fue construyendo haciendo uso de librerías de Python, además se hicieron consultas al sitio web de ROR para enriquecer el grafo con información de las instituciones mencionadas y  consultas a Wikidata para enriquecerlo con información de los autores.En este proyecto me encargué de desarrollar funciones para extraer información del XML y para las requests a los sitios web de lo que se obtuvo información, además, también me encargué de la documentación y de pasar todo el código a un contenedor de Docker. 
+                    </p>
+
+                    <a href="https://kgproject.readthedocs.io/en/latest/?badge=latest" class="boton2" target="_blank">Ver documentación</a>
+
+                </section>
+
+                <img src="img/pro3.png" width="280px" height="280px" alt="">
+
+                
+
+
+            </section>
+            <section class="proyecto" id="pro3">
+                    
+                <img src="img/wordcloud_paper1.png" width="280px" height="280px" alt="">
+                
+                
+
+                <section id="proyecto-descripcion3" class="proyecto-texto">
+
+                    <h2>
+                        Software for data visualization obtained with text analysis tools:
+                    </h2>
+                    <p>
+                        Es un software que consiste de tres distintos scripts de Python que tienen como objetivo que 10 artículos científicos en formato pdf se conviertan en XMLs para así poder obtener información específica de cada uno de estos, cada script tiene una función específica, el primero retorna una nube de palabras con las palabras claves de los abstract de los 10 artículos, el segundo retorna una gráfica mostrando el número de figuras presentes en cada uno de los artículos y, por último, el tercer script crea una lista de todos los links encontrados en los artículos y la devuelve en un .txt. Este software se ejecuta en un contenedor de docker y usando docker compose para que los archivos se ejecuten al mismo tiempo, haciendo uso de un volumen compartido para que el usuario pueda ver los archivos devueltos en su computadora. 
+                    </p>
+
+                    <a href="https://aiandopenscienceinresearchsoftwareengineering.readthedocs.io/en/latest/?badge=latest" class="boton2" target="_blank">Ver documentación</a>
+
+                </section>
+
+            </section>
+
+
+
+        </section>
+    </main>
+
+    <footer class="footer">
+            
+        <div class="redes-sociales">
+            <a href="https://github.com/Ang3licaValdo" target="_blank" >
+                <!-- Ícono de GitHub -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                </svg>
+                    
+            </a>
+
+            <a href="https://www.linkedin.com/in/angelicavaldovinos/"  target="_blank">
+                <!-- Icono de LinkeIn -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                    <path d="M8 11l0 5" />
+                    <path d="M8 8l0 .01" />
+                    <path d="M12 16l0 -5" />
+                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                  </svg>
+            </a>
+        </div>
+        <p>Creado por Angélica Valdovinos 2023 &#169;</p>
+    </footer>
+
+</body>
+</html>
