@@ -696,6 +696,181 @@ input[type="checkbox"] {
     padding-right:10px;
 }
 
+/* Media queries para iphone */
+@media only screen and (max-width:375px)/*(min-width: 375px) and (max-width: 700px) and (min-height: 640px) and (max-height: 900px) */{
+    .navigation-bar{
+        display:none;
+    }
+
+    .menu-responsivo{
+        display:flex;
+        width: 100%;
+
+    }
+
+
+    .menu-lista{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content:  flex-end;
+    }
+
+    #checkbox:checked ~ .etiquetas-responsivas {
+        display: block;
+    }
+
+    .nombre{
+        font-size: 46px;
+    }
+
+    .lenguajes{
+        flex-direction: column;
+    }
+
+    .div-lenguaje{
+        transform: none;
+        margin: 20px;
+    }
+    .desarrollo{
+        margin-top: 20px;
+    }
+
+    .desarrollo h2, .subtitulos h2{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    
+
+    .desarrollo-compuesto{
+        height: 800px;
+        width: 80%;
+    }
+
+    .desarrollo-compuesto-img{
+        width: 200px;
+        flex-direction: column;
+    }
+
+    .contenedores-img{
+        width: 80%;
+    }
+
+    .contenedores-img img{
+        width: 260px;
+    }
+
+    .desarrollo{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedores-alrededor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contenedor-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 570px 700px 700px;
+        height: 1970px;
+
+    }
+
+    .sobremi{
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .cursos{
+        grid-row: 2;
+        grid-column: 1;
+        height: 100%;
+        
+    }
+
+    .cursos-dentro{
+        flex-direction: column;
+    }
+    .curso{
+        width: 200px;
+        height: 180px;
+    }
+
+    .curso p{
+        font-size: 10px;
+    }
+    .liderazgo{
+        grid-row: 3;
+        grid-column: 1;
+        height: 100%;
+        /* background-color: blue; */
+    }
+
+    .premio{
+        width: 200px;
+        height: 180px;
+    }
+
+    .premios-dentro{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .curies-img{
+        height: 80px;
+        width: 80px;
+    }
+    .exc-img{
+        height: 100px;
+        width: 100px;
+    }
+    .inroads-img{
+        height: 80px;
+        width: 80px;
+    }
+
+    /* Página proyectos */
+    
+    .proyecto{
+        height: 1100px;
+         flex-direction: column;
+    }
+
+    #pro1{
+        height:700px;
+    }
+
+    .proyecto-texto{
+        width: 70%;
+    }
+    #pro1 img{
+        width: 270px;
+        height: 270px;
+    }
+    #pro2 img{
+        width: 300px;
+        height: 270px;
+    }
+    #pro3 img{
+        width: 300px;
+        height: 270px;
+    }
+
+    .proyecto-texto{
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Formulario responsive */
+
+    .formulario-div{
+        height: 1000px;
+    }
+}
+
 /* Media queries para Ipad */
 @media only screen and (max-width:768px)/*(min-width: 768px) and (max-width: 820px) and (min-height: 1024px) and (max-height: 1180px)*/ {
     .navigation-bar{
@@ -930,177 +1105,3 @@ input[type="checkbox"] {
     }
 }
 
-/* Media queries para iphone */
-@media only screen and (max-width:375px)/*(min-width: 375px) and (max-width: 700px) and (min-height: 640px) and (max-height: 900px) */{
-    .navigation-bar{
-        display:none;
-    }
-
-    .menu-responsivo{
-        display:flex;
-        width: 100%;
-
-    }
-
-
-    .menu-lista{
-        width: 80%;
-        display: flex;
-        align-items: center;
-        justify-content:  flex-end;
-    }
-
-    #checkbox:checked ~ .etiquetas-responsivas {
-        display: block;
-    }
-
-    .nombre{
-        font-size: 46px;
-    }
-
-    .lenguajes{
-        flex-direction: column;
-    }
-
-    .div-lenguaje{
-        transform: none;
-        margin: 20px;
-    }
-    .desarrollo{
-        margin-top: 20px;
-    }
-
-    .desarrollo h2, .subtitulos h2{
-        text-align: center;
-        font-size: 20px;
-    }
-
-    
-
-    .desarrollo-compuesto{
-        height: 800px;
-        width: 80%;
-    }
-
-    .desarrollo-compuesto-img{
-        width: 200px;
-        flex-direction: column;
-    }
-
-    .contenedores-img{
-        width: 80%;
-    }
-
-    .contenedores-img img{
-        width: 260px;
-    }
-
-    .desarrollo{
-        align-items: center;
-        justify-content: center;
-    }
-
-    .contenedores-alrededor{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .contenedor-grid{
-        grid-template-columns: 1fr;
-        grid-template-rows: 570px 700px 700px;
-        height: 1970px;
-
-    }
-
-    .sobremi{
-        grid-row: 1;
-        grid-column: 1;
-    }
-
-    .cursos{
-        grid-row: 2;
-        grid-column: 1;
-        height: 100%;
-        
-    }
-
-    .cursos-dentro{
-        flex-direction: column;
-    }
-    .curso{
-        width: 200px;
-        height: 180px;
-    }
-
-    .curso p{
-        font-size: 10px;
-    }
-    .liderazgo{
-        grid-row: 3;
-        grid-column: 1;
-        height: 100%;
-        /* background-color: blue; */
-    }
-
-    .premio{
-        width: 200px;
-        height: 180px;
-    }
-
-    .premios-dentro{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .curies-img{
-        height: 80px;
-        width: 80px;
-    }
-    .exc-img{
-        height: 100px;
-        width: 100px;
-    }
-    .inroads-img{
-        height: 80px;
-        width: 80px;
-    }
-
-    /* Página proyectos */
-    
-    .proyecto{
-        height: 1100px;
-         flex-direction: column;
-    }
-
-    #pro1{
-        height:700px;
-    }
-
-    .proyecto-texto{
-        width: 70%;
-    }
-    #pro1 img{
-        width: 270px;
-        height: 270px;
-    }
-    #pro2 img{
-        width: 300px;
-        height: 270px;
-    }
-    #pro3 img{
-        width: 300px;
-        height: 270px;
-    }
-
-    .proyecto-texto{
-        align-items: center;
-        justify-content: center;
-    }
-
-    /* Formulario responsive */
-
-    .formulario-div{
-        height: 1000px;
-    }
-}
