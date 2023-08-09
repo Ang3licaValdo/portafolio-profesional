@@ -796,6 +796,10 @@ input[type="checkbox"] {
          flex-direction: column;
     }
 
+    #pro1{
+        height: 750px;
+    }
+
     /* Formulario responsive */
 
     .formulario-div{
